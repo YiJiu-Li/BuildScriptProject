@@ -1,0 +1,79 @@
+# 此.gitignore文件应放置于Unity项目目录的根目录
+#
+# 最新版本来源: https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 内存捕获可能会变得过大
+# 它们也可能包含极其敏感的数据
+/[Mm]emoryCaptures/
+
+# 录制内容可能会变得过大
+/[Rr]ecordings/
+
+# 如果您希望忽略资源商店工具插件，请取消以下行的注释
+# /[Aa]ssets/AssetStoreTools*
+
+# 自动生成的Jetbrains Rider插件
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio缓存目录
+.vs/
+
+# Gradle缓存目录
+.gradle/
+
+# 自动生成的VS/MD/Consulo解决方案和项目文件
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D生成的元数据文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D崩溃报告生成的文件
+sysinfo.txt
+
+# 构建文件
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics生成的文件
+crashlytics-build.properties
+
+# 打包的Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# 临时自动生成的Android资源
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 自定义忽略的目录
+/[Aa]ssets/[Ff]ramework/[Mm]aps/
+# 打包生成的Burst调试信息
+*_BurstDebugInformation_DoNotShip/
+
+ARMazModuleData/
